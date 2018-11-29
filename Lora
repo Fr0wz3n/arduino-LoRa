@@ -1,0 +1,9 @@
+La classe LoRa est activée avec le constructeur begin() qui prend éventuellement un argument, la fréquence.
+  int begin (longue freq);
+Pour créer un paquet LoRa, nous commençons par:
+  int beginPacket();
+Pour terminer la construction du paquet que nous utilisons
+  int endPacket ();
+Les données sont envoyées par les fonctions:
+
+Each packet can contain up to 255 bytes.
